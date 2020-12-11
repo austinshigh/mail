@@ -1,0 +1,40 @@
+textarea {
+    min-height: 400px;
+}
+
+.read-row, .unread-row {
+    display: block;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .25rem;
+}
+
+.read-row {
+    background-color: gray;
+    color: white;
+}
+
+.unread-row {
+    background-color: white;
+    color:gray;
+}
+
+.read-row strong, .unread-row strong {
+    padding-right: 8px;
+}
+
+.reply-btn, .archive-btn {
+    font-weight: 400;
+    padding: .275rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    background-color: white;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.timestamp {
+    float: right;
+}
